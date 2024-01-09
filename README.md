@@ -1,4 +1,4 @@
-# transsharkit-swift
+# transkit-swift
 
 ![alt text](https://digitalblend.fr/assets/title.png)
 
@@ -42,17 +42,17 @@ This package simplify the usage of translate an application in [Swift](https://d
 
 [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-To integrate TransSharKit into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
+To integrate TransKit into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://git.digitalblend.dev/frameworks/transsharkit-swift", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/swannlagoute/TransKit", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
 ### Manually
 
-If you prefer not to use either of the aforementioned dependency managers, you can integrate TransSharKit into your project manually.
+If you prefer not to use either of the aforementioned dependency managers, you can integrate TransKit into your project manually.
 
 ## Usage
 ### Quick Start
